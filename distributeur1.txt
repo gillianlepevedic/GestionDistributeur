@@ -1,14 +1,14 @@
-5euros
+5 euros
 4
-10euros
+10 euros
 6
-20euros
+20 euros
 1
-50euros
+50 euros
 6
-100euros
+100 euros
 15
-200euros
+200 euros
 2
-500euros
+500 euros
 1

@@ -1,9 +1,10 @@
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
+import java.util.Map;
 
 public class Distributeur {
-    private HashMap<String, Integer> lesBillets = new HashMap<>();
+    private Map<String, Integer> lesBillets = new HashMap<>();
 
     public Distributeur() throws FileNotFoundException {
         GestionFichier leFichier = new GestionFichier("distributeur1.txt");
@@ -11,8 +12,6 @@ public class Distributeur {
     }
 
     public void afficheBillet(){
-        for (String mapKey : lesBillets.keySet()) {
-			System.out.println(mapKey + "->" + lesBillets.get(mapKey));		
-		}
+        System.out.println(lesBillets.entrySet());
     }
 }
