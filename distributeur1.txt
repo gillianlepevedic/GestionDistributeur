@@ -1,0 +1,14 @@
+5euros
+4
+10euros
+6
+20euros
+1
+50euros
+6
+100euros
+15
+200euros
+2
+500euros
+1
