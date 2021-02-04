@@ -68,13 +68,13 @@ public class GestionFichier {
 
     private void ecrireCorp(Map<String, Integer> lesBillets){
 
-        try (FileWriter lefichier = new FileWriter("oui.txt", true);){
+        try (FileWriter lefichier = new FileWriter(nomFichier, true);){
 
             for (String i : lesBillets.keySet()){
                 lefichier.write(i + "\n");
                 lefichier.write(lesBillets.get(i)+1 + "\n");
             }
-            System.out.println("Successfully wrote to the file.");
+            System.out.println("Ecriture du fichier reussi");
         }
         catch (IOException e){
               System.out.println("Erreur : Imposible d'ecrire");
